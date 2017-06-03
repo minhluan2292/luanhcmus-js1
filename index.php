@@ -5,9 +5,12 @@
     <meta charset="utf-8" />
     <title><?php siteName(); ?> | <?php pageTitle(); ?></title>
       <style type="text/css">
-      .bgimg-1 {
-           background-image: url("img/bg2.jpg");
-           height: 100%;
+      body.bg {
+           background: url("img/bg2.jpg") no-repeat center center;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover; 
           }
     .page-signin-modal {
       position: relative;
@@ -51,22 +54,27 @@
 
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" class="px-demo-stylesheet-bs">
     <link href="css/pixeladmin.min.css" rel="stylesheet" type="text/css" class="px-demo-stylesheet-core">
-    <link href="css/pixeladmin.min-blessed1b401.css" rel="stylesheet" type="text/css">
     <link href="css/widgets.min.css" rel="stylesheet" type="text/css">
     <link href="css/demo.css" rel="stylesheet" type="text/css">
     <link href="css/adminflare.min.css" rel="stylesheet" type="text/css">
     <link href="css/font/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="css/icon/ionicons.min.css" rel="stylesheet" type="text/css">
+    <link href="css/pixeladmin.min-blessed1.css" rel="stylesheet" type="text/css">
 </head>
-<body>
-<div class="bgimg-1">
+<body class="bg">
+
     <header>
-        <nav class="menu">
-            <a href="/" title="Home">Home</a> |    
-            <a href="/?page=about-us">About</a> |
-            <a href="/?page=products">Products</a> |
-            <a href="/?page=contact-us">Contact</a>
-            <a href="/?page=login">Login</a>
+        <nav>
+            <a class="btn btn-labeled btn-success" href="/" title="Home">
+              <span class="btn-label-icon left fa fa-home"></span>Home</a>    
+            <a class="btn btn-info" href="/?page=about-us">
+              <span class="btn-label-icon left fa fa-info-circle"></span>About</a> 
+            <a class="btn btn-info" href="/?page=products">
+              <span class="btn-label-icon left fa fa-product-hunt"></span>Products</a> 
+<!--             <a class="btn btn-info" href="/?page=contact-us">
+              <span class="btn-label-icon left fa fa-address-card"></span>Contact</a>  -->
+            <a class="btn btn-info" href="/?page=login">
+              <span class="btn-label-icon left fa fa-user"></span>Login</a>
         </nav>
     </header>    
 
@@ -74,6 +82,6 @@
         <?php pageContent(); ?>
     </article>
 
-</div>
+
 </body>
 </html>
