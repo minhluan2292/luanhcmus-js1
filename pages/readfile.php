@@ -1,5 +1,5 @@
 <?php
-$dir = opendir('fileshare');
+$dir = opendir('pages/fileshare');
 echo "<br><br>";
 
 while ($file = readdir($dir)) {
