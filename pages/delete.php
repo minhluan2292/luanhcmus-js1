@@ -1,11 +1,12 @@
 <?php
-$filename = $_GET['f']; //get the filename
-echo $filename;
-$path = "./pages/fileshare/$filename";
+$filenameD = $_GET['f']; //get the filename
 
-if (unlink($path)) {
-    echo 'success';
-} else {
-    echo 'fail';
+foreach (glob('fileshare/*.*') as $filename) {
+    if ('fileshare/'.$filenameD == $filename) {
+        if(unlink('fileshare/'.$filenameD))
+          echo "Success";
+      else
+        echo "Failed";
+    }
 }
 ?>
