@@ -8,7 +8,7 @@ while ($file = readdir($dir)) {
     }
 
   echo "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
-  echo "<a class='btn btn-warning btn-rounded' href='/fileshare/$file'><span class='btn-label-icon left fa fa-file'></span>".$file."</a>";
+  echo "<a class='btn btn-warning btn-rounded' href='pages/fileshare/$file'><span class='btn-label-icon left fa fa-file'></span>".$file."</a>";
   
     echo "<br>";
 }
