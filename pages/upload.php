@@ -10,10 +10,6 @@
         <input type="submit" name="uploadclick" value="Upload"/>
     </form>
     <?php // Xử Lý Upload
-    ini_set('post_max_size', '100M');
-    ini_set('upload_max_filesize', '100M'); 
-    ini_set('memory_limit', '1000M'); 
-    ini_set('max_execution_time', '1920');
     echo ini_get('upload_max_filesize'), ", " , ini_get('post_max_size');
 
   
