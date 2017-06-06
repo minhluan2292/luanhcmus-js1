@@ -65,16 +65,20 @@
 
     <header>
         <nav>
-            <a class="btn btn-labeled btn-success" href="/" title="Home">
+            <a class="btn btn-info" href="/" title="Home">
               <span class="btn-label-icon left fa fa-home"></span>Home</a>    
-            <a class="btn btn-info" href="/?page=about-us">
+            <a class="btn btn-info" href="/?p=about">
               <span class="btn-label-icon left fa fa-info-circle"></span>About</a> 
-            <a class="btn btn-info" href="/?page=products">
-              <span class="btn-label-icon left fa fa-product-hunt"></span>Products</a> 
+            <a class="btn btn-info" href="/?p=projects">
+              <span class="btn-label-icon left fa fa-product-hunt"></span>Projects</a> 
 <!--             <a class="btn btn-info" href="/?page=contact-us">
               <span class="btn-label-icon left fa fa-address-card"></span>Contact</a>  -->
-            <a class="btn btn-info" href="/?page=login">
+            <a class="btn btn-info" href="/?p=login">
               <span class="btn-label-icon left fa fa-user"></span>Login</a>
+           <a class="btn btn-danger btn-outline btn-3d active" href="/?p=readfile">
+              <span class="btn-label-icon left fa fa-file"></span>File</a>
+          <a class="btn active" href="/fileshare/">
+              <span class="btn-label-icon left fa fa-folder-open"></span>Folder Files</a>
         </nav>
     </header>    
 

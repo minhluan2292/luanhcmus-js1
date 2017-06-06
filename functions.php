@@ -25,7 +25,7 @@ function siteName()
  */
 function pageTitle()
 {
-    $page = isset($_GET['page']) ? htmlspecialchars($_GET['page']) : 'home';
+    $page = isset($_GET['p']) ? htmlspecialchars($_GET['p']) : 'home';
 
     echo ucwords(str_replace('-', ' ', $page));
 }
@@ -37,7 +37,7 @@ function pageTitle()
  */
 function pageContent()
 {
-    $page = isset($_GET['page']) ? $_GET['page'] : 'home';
+    $page = isset($_GET['p']) ? $_GET['p'] : 'home';
 
     $path = getcwd().'/pages/'.$page.'.php';
 
