@@ -9,4 +9,6 @@ foreach (glob('fileshare/*.*') as $filename) {
         echo "Failed";
     }
 }
+header('Location: ' . $_SERVER['HTTP_REFERER']);
+exit;
 ?>
