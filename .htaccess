@@ -14,7 +14,7 @@
 </FilesMatch>
 
 # Don’t show directory listings
-Options +Indexes
+Options -Indexes
 
 # Basic rewrite rules, stop unneeded PERL bot, block subversion directories
 <IfModule mod_rewrite.c>

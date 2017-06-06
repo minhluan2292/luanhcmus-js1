@@ -77,8 +77,8 @@
               <span class="btn-label-icon left fa fa-user"></span>Login</a>
            <a class="btn btn-danger btn-outline btn-3d active" href="/?p=readfile">
               <span class="btn-label-icon left fa fa-file"></span>File</a>
-          <a class="btn active" href="/pages/fileshare/">
-              <span class="btn-label-icon left fa fa-folder-open"></span>Folder Files</a>
+<!--           <a class="btn active" href="/pages/fileshare/">
+              <span class="btn-label-icon left fa fa-folder-open"></span>Folder Files</a> -->
            <a class="btn btn-warning" href="/?p=upload">
               <span class="btn-label-icon left fa fa-upload"></span>Upload file</a>
         </nav>
