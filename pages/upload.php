@@ -21,6 +21,7 @@
             // Tức là thuộc tính error > 0
             if ($_FILES['avatar']['error'] > 0)
             {
+              echo $_FILES['avatar']['error'];
                 echo 'File Upload Bị Lỗi';
             }
             else{
