@@ -81,6 +81,9 @@
               <span class="btn-label-icon left fa fa-folder-open"></span>Folder Files</a> -->
            <a class="btn btn-warning" href="/?p=upload">
               <span class="btn-label-icon left fa fa-upload"></span>Upload file</a>
+          <a class="btn btn-info" href="/?p=upload">
+              <span class="btn-label-icon left fa fa-file-open"></span>Test</a>
+          
         </nav>
     </header>    
 
